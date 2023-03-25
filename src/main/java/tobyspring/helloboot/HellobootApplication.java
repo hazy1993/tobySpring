@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-@Configuration
-@ComponentScan
+
+@MySpringBootAnnotation
 public class HellobootApplication {
 
     @Bean
