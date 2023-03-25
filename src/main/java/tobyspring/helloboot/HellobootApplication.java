@@ -14,7 +14,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 
 @MySpringBootAnnotation
 public class HellobootApplication {
-
+/*Config Class로 이동
     @Bean
     public ServletWebServerFactory servletWebServerFactory(){
         return new TomcatServletWebServerFactory();
@@ -23,7 +23,7 @@ public class HellobootApplication {
     public DispatcherServlet dispatcherServlet(){
         return new DispatcherServlet();
     }
-
+*/
     public static void main(String[] args) {
       // MySpringApplication.run(HellobootApplication.class,args);
         SpringApplication.run(HellobootApplication.class,args);
