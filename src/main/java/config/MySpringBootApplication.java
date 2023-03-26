@@ -1,6 +1,7 @@
-package tobyspring.helloboot;
+package config;
 
 
+import config.EnableMyAutoConfigration;
 import config.autoconfig.DispatcherServletConfig;
 import config.autoconfig.TomcatWebServerConfig;
 import org.springframework.context.annotation.ComponentScan;
@@ -16,7 +17,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Configuration
 @ComponentScan
-@Import({TomcatWebServerConfig.class,DispatcherServletConfig.class})
+@EnableMyAutoConfigration
 public @interface MySpringBootApplication {
 
 }
